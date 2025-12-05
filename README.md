@@ -4,6 +4,38 @@ Deze repository bevat de Terraform infrastructuur voor de [Multiplication Traine
 
 **🌐 Live Demo**: Een werkende versie van de applicatie is beschikbaar op [https://d2zf8l8tihew58.cloudfront.net/](https://d2zf8l8tihew58.cloudfront.net/)
 
+## Installatie Instructies
+
+### Vereisten
+
+Om met deze infrastructuur te werken, heb je de volgende zaken nodig:
+
+#### Terraform
+Infrastructuur als code tool voor het beheren van cloud resources
+
+```bash
+# Installeer Terraform met Homebrew
+brew install terraform
+
+# Controleer de installatie
+terraform --version
+```
+
+#### AWS CLI
+Command-line interface voor interactie met AWS diensten
+
+```bash
+# Installeer AWS CLI met Homebrew
+brew install awscli
+
+# Controleer de installatie
+aws --version
+
+# Configureer AWS CLI (volg de instructies)
+aws configure
+```
+**Let op**: Je hebt hiervoor je AWS Access Key ID en Secret Access Key nodig.
+
 ## Overzicht van de Infrastructuur
 
 Deze Terraform configuratie creëert de volgende AWS resources:
@@ -43,11 +75,6 @@ Na succesvolle deployment krijg je de volgende outputs:
 - `cloudfront_url`: De CloudFront distributie URL waar de website bereikbaar is
 
 ## Installatie Instructies
-
-### Vereisten
-1. **AWS CLI** geïnstalleerd en geconfigureerd
-2. **Terraform** geïnstalleerd (versie 1.0 of hoger)
-3. **AWS profiel** genaamd `edwinbulter` geconfigureerd (of pas `provider.tf` aan)
 
 ### Stap-voor-stap installatie
 
