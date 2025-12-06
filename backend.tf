@@ -1,7 +1,6 @@
 terraform {
 
   backend "s3" {
-    # Replace with your actual bucket name
     bucket         = "multiplication-trainer-terraform-state"
     key            = "multiplication-trainer/terraform.tfstate"
     region         = "eu-central-1"
