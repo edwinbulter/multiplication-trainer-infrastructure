@@ -4,6 +4,21 @@ Deze repository bevat de Terraform infrastructuur voor de [Multiplication Traine
 
 **🌐 Live Demo**: Een werkende versie van de applicatie is beschikbaar op [https://d2zf8l8tihew58.cloudfront.net/](https://d2zf8l8tihew58.cloudfront.net/)
 
+## Inhoudsopgave
+
+- [Installatie Instructies](#installatie-instructies)
+  - [Vereisten](#vereisten)
+  - [Terraform](#terraform)
+  - [AWS CLI](#aws-cli)
+- [Overzicht van de Infrastructuur](#overzicht-van-de-infrastructuur)
+  - [S3 Bucket](#s3-bucket)
+  - [CloudFront Distribution](#cloudfront-distribution)
+- [Gebruik](#gebruik)
+- [Variabelen](#variabelen)
+- [Outputs](#outputs)
+- [Onderhoud](#onderhoud)
+- [Licentie](#licentie)
+
 ## Installatie Instructies
 
 ### Vereisten
